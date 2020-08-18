@@ -52,6 +52,9 @@ a recent survey dated Aug 2020: **Generative Adversarial Networks for Image and 
 
 ## Generative models for 3D
 
+ECCV2020: **Learning Gradient Fields for Shape Generation**. [paper](https://arxiv.org/abs/2008.06520) [page](https://www.cs.cornell.edu/~ruojin/ShapeGF/)
+*comment*: 3D point cloud generation by a mixture of Gaussian model.
+
 ## Generative models beyond image
 
 SIGGRAPH ASIA 2020: **Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning**. [paper]() [page](https://reposhub.com/python/deep-learning/HanqingWangAI-SceneMover.html)
