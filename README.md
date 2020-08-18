@@ -58,9 +58,9 @@ ECCV2020: **Learning Gradient Fields for Shape Generation**. [paper](https://arx
 ICCV2019: **PointFlow : 3D Point Cloud Generation with Continuous Normalizing Flows**. [paper](https://arxiv.org/abs/1906.12320) [page](https://www.guandaoyang.com/PointFlow/)<br>
 *comment*: invertible Normalizing flow model for 3D point generation.
 
-## Generative models beyond image
-
 SIGGRAPH ASIA 2020: **Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning**. [paper]() [page](https://reposhub.com/python/deep-learning/HanqingWangAI-SceneMover.html)
+
+## Generative models for drug discovery
 
 Nature MI: **Generative molecular design in low data regimes**. [paper](https://www.nature.com/articles/s42256-020-0160-y.epdf?author_access_token=kx71VwOu26XWGELCg3BP-NRgN0jAjWel9jnR3ZoTv0MojvyIaQWNqzF7aemIUbYlNUc8tqoGgWco3JoR6d8H9plcxmpko09VfAUvw6-sCHyp8bABy7FhZ89AUc_da9ZU3s4YWQy4gK0meFq2XLhHYA%3D%3D) [code](https://github.com/ETHmodlab/virtual_libraries)
 
@@ -68,13 +68,31 @@ Nature MI: **Direct steering of de novo molecular generation with descriptor con
 
 Medium: **Creating Molecules from Scratch I: Drug Discovery with Generative Adversarial Networks** [link](https://medium.com/neuromation-blog/creating-molecules-from-scratch-i-drug-discovery-with-generative-adversarial-networks-9d42cc496fc6)
 
+## Generative models for animation and locomotion
+
+SIGGRAPH20: **CARL: Controllable Agent with Reinforcement Learning for Quadruped Locomotion**. [paper](https://inventec-ai-center.github.io/projects/CARL/CARL.pdf) [page](https://inventec-ai-center.github.io/projects/CARL/index.html) <br>
+*comment*: a physics-based controller is composed of three stages. 1)imitation learning for low-level control that specifies the agent's movement at the joint level. 2)GAN control adapter to approximate the natural action distribution in the high-level user control. 3)DRL finetuning to improve the controller's ability to adapt to unseen scenarios. High-level user controls over speed and heading. The idea of using high-level GAN controller in second stage to mimic the behavior of the low-level
+trained controller, achieved by a GAN loss, is clever. There are the paired labels c_high and c_low.  Controllable agent is the way to go!
+
+SIGGRAPH20: **Local Motion Phases for Learning Multi-Contact Character Movements**. [paper](http://www.ipab.inf.ed.ac.uk/cgvu/basketball.pdf) [page](http://www.starke-consult.de/portfolio/assets/content/work/14/page.html) <br>
+*comment*: A generative control model is introduced to produce a variation of realistic movements from the coarse user control signal, which is an encoder-decoder structure + GAN loss. 
+
+SIGGRAPH20: **Character Controllers using Motion VAEs**. [paper](https://www.cs.ubc.ca/~van/papers/2020-TOG-MVAE/2020-TOG-MVAE.pdf) [page](https://www.cs.ubc.ca/~hyuling/projects/mvae/) <br>
+*comment*: A clear two-stage framework to train character controllers. 1) Train a motion synthesis VAE model: given p_t-1 and p_t for encoder, decoder output p_t. 2) Throw away encoder, train a controller which outputs latent code to the decoder. 
+
+SIGGRAPH20: **Unpaired Motion Style Transfer from Video to Animation**.[paper](https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png) [page](https://deepmotionediting.github.io/style_transfer) <br>
+*comment*: Disentangling content code and style code for motion style transfer. 
+
+AI4Animation: **AI4Animation: Deep Learning, Character Animation, Control**.[link](https://github.com/sebastianstarke/AI4Animation). <br> 
+*comment*: several relevant SIGGRAPH papers and code and locomotion data.
+
 ## Relevant Researchers (random order)
 
 [Craig Yu](https://craigyuyu.github.io/home/research.html): faculty at GMU. on graphics
 
 [Junyan Zhu](https://www.cs.cmu.edu/~junyanz/): Adobe researcher and faculty at CMU. on vision + graphics
 
-[Tero Karras](https://scholar.google.fi/citations?user=-50qJW8AAAAJ&hl=en): nvidia research, leading author of stylegan, as Kaiming He in the field of generative modeling. oh man, i love this guy's work. 
+[Tero Karras](https://scholar.google.fi/citations?user=-50qJW8AAAAJ&hl=en): nvidia research, leading author of stylegan, as Kaiming He in the field of generative modeling. oh man, i love this guy's work.
 
 [Ming-Yu Liu](http://mingyuliu.net/): nvidia researcher on computer vision
 
@@ -82,4 +100,4 @@ Medium: **Creating Molecules from Scratch I: Drug Discovery with Generative Adve
 
 [Alexei Efros](https://people.eecs.berkeley.edu/~efros/): faculty at berkeley. without doubt, the pixel god-father!
 
-[Aaron Hertzman](https://research.adobe.com/person/aaron-hertzmann/): Principal scientist at Adobe. without doubt, the pioneer in image generation. 
+[Aaron Hertzman](https://research.adobe.com/person/aaron-hertzmann/): Principal scientist at Adobe. without doubt, the pioneer in image generation.
