@@ -52,12 +52,21 @@ a recent survey dated Aug 2020: **Generative Adversarial Networks for Image and 
 
 ## Generative models for 3D
 
-ECCV2020: **Learning Gradient Fields for Shape Generation**. [paper](https://arxiv.org/abs/2008.06520) [page](https://www.cs.cornell.edu/~ruojin/ShapeGF/)
+ECCV2020: **Learning Gradient Fields for Shape Generation**. [paper](https://arxiv.org/abs/2008.06520) [page](https://www.cs.cornell.edu/~ruojin/ShapeGF/)<br>
 *comment*: 3D point cloud generation by a mixture of Gaussian model.
+
+ICCV2019: **PointFlow : 3D Point Cloud Generation with Continuous Normalizing Flows**. [paper](https://arxiv.org/abs/1906.12320) [page](https://www.guandaoyang.com/PointFlow/)<br>
+*comment*: invertible Normalizing flow model for 3D point generation.
 
 ## Generative models beyond image
 
 SIGGRAPH ASIA 2020: **Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning**. [paper]() [page](https://reposhub.com/python/deep-learning/HanqingWangAI-SceneMover.html)
+
+Nature MI: **Generative molecular design in low data regimes**. [paper](https://www.nature.com/articles/s42256-020-0160-y.epdf?author_access_token=kx71VwOu26XWGELCg3BP-NRgN0jAjWel9jnR3ZoTv0MojvyIaQWNqzF7aemIUbYlNUc8tqoGgWco3JoR6d8H9plcxmpko09VfAUvw6-sCHyp8bABy7FhZ89AUc_da9ZU3s4YWQy4gK0meFq2XLhHYA%3D%3D) [code](https://github.com/ETHmodlab/virtual_libraries)
+
+Nature MI: **Direct steering of de novo molecular generation with descriptor conditional recurrent neural networks**. [paper](https://www.nature.com/articles/s42256-020-0174-5) 
+
+Medium: **Creating Molecules from Scratch I: Drug Discovery with Generative Adversarial Networks** [link](https://medium.com/neuromation-blog/creating-molecules-from-scratch-i-drug-discovery-with-generative-adversarial-networks-9d42cc496fc6)
 
 ## Relevant Researchers (random order)
 
