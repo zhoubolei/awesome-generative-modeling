@@ -22,6 +22,9 @@ classification on ImageNet?? (fun fact: there are about 150 dog classes out of t
 
 ## Latent code to Image (StyleGAN and BigGAN types)
 
+SIGGRAPH20 Asia: **StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows**. [paper](https://arxiv.org/pdf/2008.02401.pdf) <br>
+*comment*: embed a normalizing flow model in the latent space to support attribute-conditioned sampling and editing. The disentangled manipulation result is great.
+
 ECCV2020: **StyleGAN2 Distillation for Feed-forward Image Manipulation**. [paper](https://arxiv.org/pdf/2003.03581.pdf), [code?](https://github.com/EvgenyKashin/stylegan2-distillation)<br>
 *comment*: use InterfaceGAN pipeline to generate paired data from pretrained styleGAN, then use the paired data to train a pix2pix network. 
 
