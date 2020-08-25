@@ -1,8 +1,8 @@
 # Papers on generative modeling 
 
-## Well, check out our GenForce work first!
-
 [GenForce](https://genforce.github.io): may generative force be with you. Refer to this page for our latest work.
+
+## Latent code to Image (StyleGAN and BigGAN types)
 
 CVPR2020: **Interpreting the Latent Space of GANs for Semantic Face Editing**. [paper](https://genforce.github.io/interfacegan) <br>
 *comment*: use facial classifiers to discover the interpretable dimensions emerged in the GANs trained to synthesize faces.
@@ -13,16 +13,11 @@ CVPR2020: **Image Processing Using Multi-Code GAN Prior**. [paper](https://genfo
 ECCV2020: **In-Domain GAN Inversion for Real Image Editing**. [paper](https://genforce.github.io/idinvert/) <br>
 *comment*: Inverted code from Image2StyleGAN does not have enough manipulatability. This work proposes to use an encoder to regularize the optimization to preserve the manipulatability. A novel semantic difusion application is also proposed. 
 
-arXiv: **Closed-Form Factorization of Latent Semantics in GANs**. [paper](https://genforce.github.io/sefa/)<br>
-*comment*: Unsupervised discovery of the interpretable dimensions in learned GAN models. The algorithm works blazingly fast with only 1 second!
-
 arXiv: **Generative Hierarchical Features from Synthesizing Images**. [paper](https://genforce.github.io/ghfeat/) <br>
 *comment*: It considers the pretrained StyleGAN model as a learned loss (similar to perceptual loss using learned VGG) to train a hierarchical encoder. This work calls to explore various applications of the encoder for both for discriminative tasks and generative tasks. It also echoes my opinion that ImageNet classification is NOT the only way to evaluate the merits of learned features from self-supervised learning. There are so many visual tasks out there, why just stick to dog
 classification on ImageNet?? (fun fact: there are about 150 dog classes out of the 1000 ImageNet classes).
 
-## Latent code to Image (StyleGAN and BigGAN types)
-
-SIGGRAPH20 Asia: **StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows**. [paper](https://arxiv.org/pdf/2008.02401.pdf) <br>
+SIGGRAPH20 Asia: **StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows**. [paper](https://arxiv.org/pdf/2008.02401.pdf) [code](https://rameenabdal.github.io/StyleFlow/)<br>
 *comment*: embed a normalizing flow model in the latent space to support attribute-conditioned sampling and editing. The disentangled manipulation result is great.
 
 ECCV2020: **StyleGAN2 Distillation for Feed-forward Image Manipulation**. [paper](https://arxiv.org/pdf/2003.03581.pdf), [code?](https://github.com/EvgenyKashin/stylegan2-distillation)<br>
@@ -39,6 +34,14 @@ SIGGRAPH'19: **Semantic Photo Manipulation with a Generative Image Prior**. [pap
 
 ICLR'19: **GAN Dissection: Visualizing and Understanding Generative Adversarial Networks**. [paper](http://gandissect.csail.mit.edu/)<br>
 *comment*: one of the earliest works looked into the interpretability of generative models PG-GAN.
+
+## Disentanglement of Variation Factors in Generative Models 
+
+arXiv: **Closed-Form Factorization of Latent Semantics in GANs**. [paper](https://genforce.github.io/sefa/)<br>
+*comment*: Unsupervised discovery of the interpretable dimensions in learned GAN models. The algorithm works blazingly fast with only 1 second!
+
+ECCV'20: **The Hessian Penalty: A Weak Prior for Unsupervised Disentanglement**. [paper](https://arxiv.org/pdf/2008.10599.pdf) [page](http://www.wpeebles.com/hessian-penalty)<br>
+*comment*: use a simple hessian panality in the GAN training to encourage the disentanglement of features. The idea is to encourage diagnoizing the hessian matrix of the generator G.
 
 ## Image to Image (Pix2pix and cycleGAN types)
 
@@ -88,6 +91,15 @@ SIGGRAPH20: **Unpaired Motion Style Transfer from Video to Animation**.[paper](h
 
 AI4Animation: **AI4Animation: Deep Learning, Character Animation, Control**.[link](https://github.com/sebastianstarke/AI4Animation). <br> 
 *comment*: several relevant SIGGRAPH papers and code and locomotion data.
+
+## Simulator generation
+
+ICLR19: **Learning to simulate**. [paper](https://arxiv.org/pdf/1810.02513.pdf) <br>
+*comment*: use policy gradient to optimize the simulation parameters. 
+
+ICCV19: **Meta-Sim: Learning to Generate Synthetic Datasets**. [paper](https://arxiv.org/abs/1904.11621) [page](https://nv-tlabs.github.io/meta-sim/) <br>
+*comment*: Learn a generative model of synthetic scenes with a graphics engine. The content distribution can be matched. Down-stream tasks can be integrated and jointly optimized. 
+
 
 ## Relevant Researchers (random order)
 
