@@ -29,6 +29,10 @@ ECCV2020: **Rewriting a Deep Generative Model**. [paper](https://rewriting.csail
 ECCV2020: **Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation**. [paper](https://xingangpan.github.io/projects/DGP.html) <br>
 *comment*: similar to the following SIGGRAPH'19 work, it develops an inversion method for finetuing the pretrained GAN weight to invert an image, then applies to a series of image processing tasks (similar to [mGAN prior](https://genforce.github.io/mganprior/)).
 
+ECCV2020: **DeepLandscape: Adversarial Modeling of
+Landscape Videos**. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680256.pdf) [page](https://saic-mdal.github.io/deep-landscape/) <br>
+*comment*: Train a styleGAN on time-lapse video and then animate landscape image.
+
 SIGGRAPH'19: **Semantic Photo Manipulation with a Generative Image Prior**. [paper](http://ganpaint.io/)<br>
 *comment*: it considers the GAN model as a image prior, then fine-tunes the weights of the pretrained network to invert a given image, finally use the unit semantics discovered by the following GAN dissection to manipulate the image content. 
 
