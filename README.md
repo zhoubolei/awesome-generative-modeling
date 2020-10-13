@@ -52,6 +52,11 @@ a recent survey dated Aug 2020: **Generative Adversarial Networks for Image and 
 
 ## Generative models for 3D
 
+NeurIPS2020: **Generative 3D Part Assembly via Dynamic Graph Learning**. [paper](https://arxiv.org/pdf/2006.07793.pdf) [code](https://github.com/hyperplane-lab/Generative-3D-Part-Assembly)<br>
+*comment*: iterative graph neural network for reasoning the dynamic relations and assembling 3D furnitures. 
+
+NeurIPS2020: **BlockGAN: Learning 3D Object-aware Scene Representations from Unlabelled Images**. [paper](https://arxiv.org/pdf/2002.08988) [page](https://www.monkeyoverflow.com/blockgan)
+
 ## Generative models beyond image
 
 SIGGRAPH ASIA 2020: **Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning**. [paper]() [page](https://reposhub.com/python/deep-learning/HanqingWangAI-SceneMover.html)
