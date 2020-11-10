@@ -4,6 +4,12 @@
 
 ## Latent code to Image (StyleGAN and BigGAN types)
 
+NeurIPS2020: **Instance Selection for GANs**.[paper](https://arxiv.org/pdf/2007.15255.pdf) <br>
+*comment*: Use likelihood function on image samples to select instance based on manifold density. So sparse regions of the data manifold can be removed for the GANs to represent.
+
+NeurIPS2020: **Top-k Training of GANs: Improving GAN Performance by Throwing Away Bad Samples**. [paper](https://papers.nips.cc/paper/2020/file/a851bd0d418b13310dd1e5e3ac7318ab-Paper.pdf) <br>
+*comment*: One line code modification to use top-k update. Discriminator is used as critic to sort the samples and conduct surgery on the gradients. 
+
 CVPR2020: **Interpreting the Latent Space of GANs for Semantic Face Editing**. [paper](https://genforce.github.io/interfacegan) <br>
 *comment*: use facial classifiers to discover the interpretable dimensions emerged in the GANs trained to synthesize faces.
 
