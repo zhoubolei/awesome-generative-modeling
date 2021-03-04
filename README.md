@@ -115,6 +115,13 @@ ICLR19: **Learning to simulate**. [paper](https://arxiv.org/pdf/1810.02513.pdf) 
 ICCV19: **Meta-Sim: Learning to Generate Synthetic Datasets**. [paper](https://arxiv.org/abs/1904.11621) [page](https://nv-tlabs.github.io/meta-sim/) <br>
 *comment*: Learn a generative model of synthetic scenes with a graphics engine. The content distribution can be matched. Down-stream tasks can be integrated and jointly optimized. 
 
+## Generative models for structured data
+
+**House-GAN++: Generative Adversarial Layout Refinement Networks**. [paper](https://arxiv.org/pdf/2103.02574.pdf)
+
+**SceneGen: Learning to Generate Realistic Traffic Scenes.**. [paper](https://arxiv.org/pdf/2101.06541.pdf) [video](https://www.youtube.com/watch?v=ipazMi4p3xk) <br>
+*comment*: learn to generate HD maps of traffic scenes.
+
 
 ## Relevant Researchers (random order)
 
